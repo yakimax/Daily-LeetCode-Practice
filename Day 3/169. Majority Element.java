@@ -15,6 +15,7 @@ class Solution {
                 count = 1 ;
             }
         }
+        
         return num ;
     }
 }
