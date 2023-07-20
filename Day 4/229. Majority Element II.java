@@ -1,8 +1,8 @@
+import java.util.*;
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         
         List<Integer> list = new ArrayList<>() ;
-        int freq = nums.length / 3 ;
         int first = 0,second = 0,count1 = 0 ,count2 = 0 ;
         
         for( int i = 0 ; i < nums.length ; i++ ){
