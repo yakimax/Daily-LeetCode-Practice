@@ -1,14 +1,14 @@
-package Day 8;
-
-public class MinimumNumberofPlatforms{
-    
-    Arrays.sort(dt) ;
+class Solution
+{
+    static int findPlatform(int at[], int dt[], int n)
+    {
+        Arrays.sort(dt) ;
         Arrays.sort(at) ;
         int count = 1 ;
         int i = 1 ;
         int j = 0 ;
         int stations = 1 ;
-        while( i < dt.length ){
+        while( i < n ){
             if( at[i] <= dt[j] ){
                 stations++ ;
                 i++ ;
@@ -22,4 +22,6 @@ public class MinimumNumberofPlatforms{
             }
         }
         return count ;
+    }
+    
 }
