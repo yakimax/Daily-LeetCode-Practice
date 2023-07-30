@@ -1,4 +1,4 @@
-
+import java.uitl.*;
 class Solution1 {
     public static boolean detectLoop(Node head){                         //using hashSet of node address
         HashSet<Node>hs = new HashSet<>() ;
