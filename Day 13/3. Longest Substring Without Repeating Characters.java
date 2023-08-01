@@ -22,6 +22,7 @@ class Solution {
     }
 }
 
+
 class Solution {
     public int lengthOfLongestSubstring(String s) {
         int n = s.length();
