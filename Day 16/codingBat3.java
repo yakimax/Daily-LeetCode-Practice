@@ -12,7 +12,7 @@ public boolean groupSumClump(int start, int[] nums, int target) {
   }
   boolean a = groupSumClump(start+1,nums,target-(nums[start]*i)) ;
   boolean b = groupSumClump(start+1,nums,target) ;
-  
-  
+
+
   return a||b ;
 }
