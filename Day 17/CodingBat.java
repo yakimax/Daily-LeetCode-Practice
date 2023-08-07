@@ -11,5 +11,6 @@ public boolean splitArray(int[] nums) {
     boolean a = helper(nums,i+1,sum1+nums[i],sum2) ;
     boolean b = helper(nums,i+1,sum1,sum2+nums[i]) ; 
     
+    
     return a||b ;  
 }
