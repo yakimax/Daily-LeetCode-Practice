@@ -1,8 +1,9 @@
 public boolean groupNoAdj(int start, int[] nums, int target) {
+  
   if(target == 0){
     return true ;
   }
-  
+
   if(nums.length <= start){
     return false ;
   }
