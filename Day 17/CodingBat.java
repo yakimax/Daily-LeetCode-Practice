@@ -7,8 +7,7 @@ public boolean splitArray(int[] nums) {
     if(i==nums.length){
       return sum1 == sum2 ? true : false ;
     }
-    
-    
+
     boolean a = helper(nums,i+1,sum1+nums[i],sum2) ;
     boolean b = helper(nums,i+1,sum1,sum2+nums[i]) ; 
 
