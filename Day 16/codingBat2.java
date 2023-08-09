@@ -6,6 +6,7 @@ public boolean groupSum6(int start, int[] nums, int target) {
         return false ;
       }
   }
+
   boolean a ;
   if(nums[start]==6){
     target-=6 ;
