@@ -11,7 +11,6 @@ class Solution {
             permutes.add(new ArrayList<>(list)) ;
             return ;
         }
-        
         for( int i = 0 ; i < nums.length ; i++ ){
             if(!list.contains(nums[i])){
                 list.add(nums[i]) ;
